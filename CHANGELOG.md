@@ -1,3 +1,76 @@
+## [2.1.1](https://github.com/datorama/akita/compare/v2.1.0...v2.1.1) (2019-01-29)
+
+
+### Bug Fixes
+
+* **history-plugin:** fix the condition ([50e6979](https://github.com/datorama/akita/commit/50e6979))
+
+# [2.1.0](https://github.com/datorama/akita/compare/v2.0.3...v2.1.0) (2019-01-29)
+
+
+### Features
+
+* **history-plugin:** allow custom comparator ([7ff2682](https://github.com/datorama/akita/commit/7ff2682))
+
+## [2.0.3](https://github.com/datorama/akita/compare/v2.0.2...v2.0.3) (2019-01-29)
+
+
+### Bug Fixes
+
+* **store:** check that config exist ([5ed262f](https://github.com/datorama/akita/commit/5ed262f)), closes [#162](https://github.com/datorama/akita/issues/162)
+
+## [2.0.2](https://github.com/datorama/akita/compare/v2.0.1...v2.0.2) (2019-01-28)
+
+
+### Bug Fixes
+
+* **query-entity:** selectMulti now accept projection fn ([6566aca](https://github.com/datorama/akita/commit/6566aca))
+
+## [2.0.1](https://github.com/datorama/akita/compare/v2.0.0...v2.0.1) (2019-01-28)
+
+
+### Bug Fixes
+
+* **query-entity:** hasActive should accept id for multi ([c2604a0](https://github.com/datorama/akita/commit/c2604a0))
+
+# [2.0.0](https://github.com/datorama/akita/compare/v1.24.3...v2.0.0) (2019-01-27)
+
+
+### Code Refactoring
+
+* **entity-dirty-check:** remove deprecated isSomeDirty ([03de8d6](https://github.com/datorama/akita/commit/03de8d6))
+* **store:** remove getInitialActiveState method ([df8e2bb](https://github.com/datorama/akita/commit/df8e2bb))
+
+
+### Features
+
+* **entity-store:** add support for multi active ([12b56ea](https://github.com/datorama/akita/commit/12b56ea))
+* **filternil:** strongly typed ([642993a](https://github.com/datorama/akita/commit/642993a))
+* **query-entity:** add selectFirst and selectLast selectors ([a8bf3a4](https://github.com/datorama/akita/commit/a8bf3a4))
+* **schematics:** update to akita v2 ([eae35a1](https://github.com/datorama/akita/commit/eae35a1))
+* **typscript:** upgrade to v3.2 ([ba2bb55](https://github.com/datorama/akita/commit/ba2bb55))
+
+
+### BREAKING CHANGES
+
+* **entity-dirty-check:** remove deprecated isSomeDirty and isSomeDirty$ methods. Use someDirty and
+someDirty$ instead
+* **store:** The getInitialActiveState doesnt exist anymore. Add the active property when needed
+
+## [1.24.3](https://github.com/datorama/akita/compare/v1.24.2...v1.24.3) (2019-01-23)
+
+
+### Bug Fixes
+
+* **dirty-check-plugin:** fix watch property reset and dirty state ([8388420](https://github.com/datorama/akita/commit/8388420))
+
+## [1.24.2](https://github.com/datorama/akita/compare/v1.24.1...v1.24.2) (2019-01-18)
+
+
+### Bug Fixes
+
+* **paginator-plugin:** total should support zero ([295c0c9](https://github.com/datorama/akita/commit/295c0c9))
+
 ## [1.24.1](https://github.com/datorama/akita/compare/v1.24.0...v1.24.1) (2019-01-12)
 
 
